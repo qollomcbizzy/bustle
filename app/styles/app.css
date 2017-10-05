@@ -1,23 +1,31 @@
 #myheader{
   border-bottom: 1px solid grey;
-  color :aquamarine;
+  color :black;
   text-align:;
 }
 h2{
   font-size: 40px;
   font-style: oblique;
 }
-span{
-  font-size: 40px;
+#menuicon-container{
+  cursor: pointer;
+  display: inline-block;
+}
+#menuicon{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
 }
 #menuform{
   width: 100%;
-  height: 100%;
+  height: 400px;
 }
 #writtenform{
-  background-color: aquamarine;
+  background-color: lightblue;
   border-right: 2px solid grey;
-  overflow-x: auto;
+  height: 600px;
+  overflow: auto;
   color: white;
 }
 #content1-in-menuform{
@@ -26,6 +34,20 @@ span{
 }
 #content2-in-menuform
 {
-  background-color: blue;
+  background-color: aquamarine;
   color: white;
+}
+#mediacontent{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  /*border: 2px solid white;*/
+  font-size: 20px;
+  font-style:oblique;
+  font-weight: lighter;
+  font-family:monospace;
+
+}
+#plainform{
+  background-color:yellow;
+  height:600px;
 }
